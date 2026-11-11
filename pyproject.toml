@@ -1,0 +1,45 @@
+[project]
+name = "app-dnd"
+version = "0.1.0"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Marcos Tavares" }]
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+description = "Fichas de D&D 5e (desktop): rolagem de dados, personagens e backup local"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.7"]
+
+[project.optional-dependencies]
+ui = ["PySide6>=6.6"]
+pdf = ["pypdf>=5", "Pillow>=10"]
+dev = ["pytest>=8", "pypdf>=5", "Pillow>=10"]
+
+[project.scripts]
+app-dnd = "app_dnd.ui.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+app_dnd = ["data/*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["src/app_dnd/data/srd_spells.json"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = true

@@ -1,0 +1,145 @@
+from __future__ import annotations
+
+REQUIRED_FIELDS = (
+    "character-name", "class-level", "str", "ac", "hp-max", "equipment",
+    "character-name-2", "backstory", "spell-slots-1-1", "spells-1-1-1", "spells-0-1-1",
+)
+
+SPELL_LINES: dict[int, list[tuple[str, str | None]]] = {
+    0: [
+        ('spells-0-1-1', None),
+        ('spells-0-2-1', None),
+        ('spells-0-3-1', None),
+        ('spells-0-4-1', None),
+        ('spells-0-5-1', None),
+        ('spells-0-6-1', None),
+        ('spells-0-7-1', None),
+        ('spells-0-8-1', None),
+    ],
+    1: [
+        ('spells-1-1-1', 'Check Box 25'),
+        ('spells-1-2-1', 'Check Box 309'),
+        ('spells-1-3-1', 'Check Box 3010'),
+        ('spells-1-4-1', 'Check Box 3011'),
+        ('spells-1-5-1', 'Check Box 3012'),
+        ('spells-1-6-1', 'Check Box 3013'),
+        ('spells-1-7-1', 'Check Box 3014'),
+        ('spells-1-8-1', 'Check Box 3015'),
+        ('spells-1-9-1', 'Check Box 3016'),
+        ('spells-1-10-1', 'Check Box 3017'),
+        ('spells-1-11-1', 'Check Box 3018'),
+        ('spells-1-12-1', 'Check Box 3019'),
+    ],
+    2: [
+        ('spells-2-1-1', 'Check Box 313'),
+        ('spells-2-2-1', 'Check Box 310'),
+        ('spells-2-3-1', 'Check Box 3020'),
+        ('spells-2-4-1', 'Check Box 3021'),
+        ('spells-2-5-1', 'Check Box 3022'),
+        ('spells-2-6-1', 'Check Box 3023'),
+        ('spells-2-7-1', 'Check Box 3024'),
+        ('spells-2-8-1', 'Check Box 3025'),
+        ('spells-2-9-1', 'Check Box 3026'),
+        ('spells-2-10-1', 'Check Box 3027'),
+        ('spells-2-11-1', 'Check Box 3028'),
+        ('spells-2-12-1', 'Check Box 3029'),
+        ('spells-2-13-1', 'Check Box 3030'),
+    ],
+    3: [
+        ('spells-3-1-1', 'Check Box 315'),
+        ('spells-3-2-1', 'Check Box 314'),
+        ('spells-3-3-1', 'Check Box 3031'),
+        ('spells-3-4-1', 'Check Box 3032'),
+        ('spells-3-5-1', 'Check Box 3033'),
+        ('spells-3-6-1', 'Check Box 3034'),
+        ('spells-3-7-1', 'Check Box 3035'),
+        ('spells-3-8-1', 'Check Box 3036'),
+        ('spells-3-9-1', 'Check Box 3037'),
+        ('spells-3-10-1', 'Check Box 3038'),
+        ('spells-3-12-1', 'Check Box 3039'),
+        ('spells-3-13-1', 'Check Box 3040'),
+        ('spells-3-14-1', 'Check Box 3041'),
+    ],
+    4: [
+        ('spells-4-1-1', 'Check Box 317'),
+        ('spells-4-2-1', 'Check Box 316'),
+        ('spells-4-3-1', 'Check Box 3042'),
+        ('spells-4-4-1', 'Check Box 3043'),
+        ('spells-4-5-1', 'Check Box 3044'),
+        ('spells-4-6-1', 'Check Box 3045'),
+        ('spells-4-7-1', 'Check Box 3046'),
+        ('spells-4-8-1', 'Check Box 3047'),
+        ('spells-4-9-1', 'Check Box 3048'),
+        ('spells-4-10-1', 'Check Box 3049'),
+        ('spells-4-11-1', 'Check Box 3050'),
+        ('spells-4-12-1', 'Check Box 3051'),
+        ('spells-4-13-1', 'Check Box 3052'),
+    ],
+    5: [
+        ('spells-5-1-1', 'Check Box 319'),
+        ('spells-5-2-1', 'Check Box 318'),
+        ('spells-5-3-1', 'Check Box 3053'),
+        ('spells-5-4-1', 'Check Box 3054'),
+        ('spells-5-5-1', 'Check Box 3055'),
+        ('spells-5-6-1', 'Check Box 3056'),
+        ('spells-5-7-1', 'Check Box 3057'),
+        ('spells-5-8-1', 'Check Box 3058'),
+        ('spells-5-9-1', 'Check Box 3059'),
+    ],
+    6: [
+        ('spells-6-1-1', 'Check Box 321'),
+        ('spells-6-2-1', 'Check Box 320'),
+        ('spells-6-3-1', 'Check Box 3060'),
+        ('spells-6-4-1', 'Check Box 3061'),
+        ('spells-6-5-1', 'Check Box 3062'),
+        ('spells-6-6-1', 'Check Box 3063'),
+        ('spells-6-7-1', 'Check Box 3064'),
+        ('spells-6-8-1', 'Check Box 3065'),
+        ('spells-6-9-1', 'Check Box 3066'),
+    ],
+    7: [
+        ('spells-7-1-1', 'Check Box 323'),
+        ('spells-7-2-1', 'Check Box 322'),
+        ('spells-7-3-1', 'Check Box 3067'),
+        ('spells-7-4-1', 'Check Box 3068'),
+        ('spells-7-5-1', 'Check Box 3069'),
+        ('spells-7-6-1', 'Check Box 3070'),
+        ('spells-7-7-1', 'Check Box 3071'),
+        ('spells-7-8-1', 'Check Box 3072'),
+        ('spells-7-9-1', 'Check Box 3073'),
+    ],
+    8: [
+        ('spells-8-1-1', 'Check Box 325'),
+        ('spells-8-2-1', 'Check Box 324'),
+        ('spells-8-3-1', 'Check Box 3074'),
+        ('spells-8-4-1', 'Check Box 3075'),
+        ('spells-8-5-1', 'Check Box 3076'),
+        ('spells-8-6-1', 'Check Box 3077'),
+        ('spells-8-7-1', 'Check Box 3078'),
+    ],
+    9: [
+        ('spells-9-1-1', 'Check Box 327'),
+        ('spells-9-2-1', 'Check Box 326'),
+        ('spells-9-3-1', 'Check Box 3079'),
+        ('spells-9-4-1', 'Check Box 3080'),
+        ('spells-9-5-1', 'Check Box 3081'),
+        ('spells-9-6-1', 'Check Box 3082'),
+        ('spells-9-7-1', 'Check Box 3083'),
+    ],
+}
+
+SLOT_TOTAL = {lvl: f"spell-slots-{lvl}-1" for lvl in range(1, 10)}
+SLOT_EXPENDED = {lvl: f"SlotsRemaining {18 + lvl}" for lvl in range(1, 10)}
+
+ABILITY_FIELDS = {
+    "strength": "str", "dexterity": "dex", "constitution": "con",
+    "intelligence": "int", "wisdom": "wis", "charisma": "cha",
+}
+
+FONT_SIZES = {
+    "equipment": 8, "features-and-traits": 8, "other-profs": 8, "attacks-and-spellcasting": 9,
+    "personality-traits": 8, "ideals": 8, "bonds": 8, "flaws": 8,
+    "backstory": 9, "allies": 9, "treasure": 9,
+}
+
+PORTRAIT_FIELD = "CHARACTER IMAGE"

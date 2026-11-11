@@ -1,0 +1,2078 @@
+{
+ "Bardo": {
+  "1": {
+   "cantrips": 2,
+   "prepared": 4,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 2,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 2,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 3,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 3,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 3,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 3,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 3,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 3,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 4,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 4,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 4,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 4,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 4,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 4,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 4,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 4,
+   "prepared": 19,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 4,
+   "prepared": 20,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 4,
+   "prepared": 21,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "20": {
+   "cantrips": 4,
+   "prepared": 22,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "Clérigo": {
+  "1": {
+   "cantrips": 3,
+   "prepared": 4,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 3,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 3,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 4,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 4,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 4,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 4,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 4,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 4,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 5,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 5,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 5,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 5,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 5,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 5,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 5,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 5,
+   "prepared": 19,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 5,
+   "prepared": 20,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 5,
+   "prepared": 21,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "20": {
+   "cantrips": 5,
+   "prepared": 22,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "Druida": {
+  "1": {
+   "cantrips": 2,
+   "prepared": 4,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 2,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 2,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 3,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 3,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 3,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 3,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 3,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 3,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 4,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 4,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 4,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 4,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 4,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 4,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 4,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 4,
+   "prepared": 19,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 4,
+   "prepared": 20,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 4,
+   "prepared": 21,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "20": {
+   "cantrips": 4,
+   "prepared": 22,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "Paladino": {
+  "1": {
+   "cantrips": 0,
+   "prepared": 2,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 0,
+   "prepared": 3,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 0,
+   "prepared": 4,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 0,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 0,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 0,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 0,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 0,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 0,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 0,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 0,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 0,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 0,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 0,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 0,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 0,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 0,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 0,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 0,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2
+   ]
+  },
+  "20": {
+   "cantrips": 0,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2
+   ]
+  }
+ },
+ "Patrulheiro": {
+  "1": {
+   "cantrips": 0,
+   "prepared": 2,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 0,
+   "prepared": 3,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 0,
+   "prepared": 4,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 0,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 0,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 0,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 0,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 0,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 0,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 0,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 0,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 0,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 0,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 0,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 0,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 0,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 0,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 0,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 0,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2
+   ]
+  },
+  "20": {
+   "cantrips": 0,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2
+   ]
+  }
+ },
+ "Feiticeiro": {
+  "1": {
+   "cantrips": 4,
+   "prepared": 2,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 4,
+   "prepared": 4,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 4,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 5,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 5,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 5,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 5,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 5,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 5,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 6,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 6,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 6,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 6,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 6,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 6,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 6,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 6,
+   "prepared": 19,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 6,
+   "prepared": 20,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 6,
+   "prepared": 21,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "20": {
+   "cantrips": 6,
+   "prepared": 22,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ]
+  }
+ },
+ "Bruxo": {
+  "1": {
+   "cantrips": 2,
+   "prepared": 2,
+   "pact_slots": 1,
+   "pact_slot_level": 1
+  },
+  "2": {
+   "cantrips": 2,
+   "prepared": 3,
+   "pact_slots": 2,
+   "pact_slot_level": 1
+  },
+  "3": {
+   "cantrips": 2,
+   "prepared": 4,
+   "pact_slots": 2,
+   "pact_slot_level": 2
+  },
+  "4": {
+   "cantrips": 3,
+   "prepared": 5,
+   "pact_slots": 2,
+   "pact_slot_level": 2
+  },
+  "5": {
+   "cantrips": 3,
+   "prepared": 6,
+   "pact_slots": 2,
+   "pact_slot_level": 3
+  },
+  "6": {
+   "cantrips": 3,
+   "prepared": 7,
+   "pact_slots": 2,
+   "pact_slot_level": 3
+  },
+  "7": {
+   "cantrips": 3,
+   "prepared": 8,
+   "pact_slots": 2,
+   "pact_slot_level": 4
+  },
+  "8": {
+   "cantrips": 3,
+   "prepared": 9,
+   "pact_slots": 2,
+   "pact_slot_level": 4
+  },
+  "9": {
+   "cantrips": 3,
+   "prepared": 10,
+   "pact_slots": 2,
+   "pact_slot_level": 5
+  },
+  "10": {
+   "cantrips": 4,
+   "prepared": 10,
+   "pact_slots": 2,
+   "pact_slot_level": 5
+  },
+  "11": {
+   "cantrips": 4,
+   "prepared": 11,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "12": {
+   "cantrips": 4,
+   "prepared": 11,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "13": {
+   "cantrips": 4,
+   "prepared": 12,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "14": {
+   "cantrips": 4,
+   "prepared": 12,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "15": {
+   "cantrips": 4,
+   "prepared": 13,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "16": {
+   "cantrips": 4,
+   "prepared": 13,
+   "pact_slots": 3,
+   "pact_slot_level": 5
+  },
+  "17": {
+   "cantrips": 4,
+   "prepared": 14,
+   "pact_slots": 4,
+   "pact_slot_level": 5
+  },
+  "18": {
+   "cantrips": 4,
+   "prepared": 14,
+   "pact_slots": 4,
+   "pact_slot_level": 5
+  },
+  "19": {
+   "cantrips": 4,
+   "prepared": 15,
+   "pact_slots": 4,
+   "pact_slot_level": 5
+  },
+  "20": {
+   "cantrips": 4,
+   "prepared": 15,
+   "pact_slots": 4,
+   "pact_slot_level": 5
+  }
+ },
+ "Mago": {
+  "1": {
+   "cantrips": 3,
+   "prepared": 4,
+   "slots": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "2": {
+   "cantrips": 3,
+   "prepared": 5,
+   "slots": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "3": {
+   "cantrips": 3,
+   "prepared": 6,
+   "slots": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "4": {
+   "cantrips": 4,
+   "prepared": 7,
+   "slots": [
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "5": {
+   "cantrips": 4,
+   "prepared": 9,
+   "slots": [
+    4,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "6": {
+   "cantrips": 4,
+   "prepared": 10,
+   "slots": [
+    4,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "7": {
+   "cantrips": 4,
+   "prepared": 11,
+   "slots": [
+    4,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "cantrips": 4,
+   "prepared": 12,
+   "slots": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "9": {
+   "cantrips": 4,
+   "prepared": 14,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "cantrips": 5,
+   "prepared": 15,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "cantrips": 5,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "12": {
+   "cantrips": 5,
+   "prepared": 16,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "cantrips": 5,
+   "prepared": 17,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "cantrips": 5,
+   "prepared": 18,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "cantrips": 5,
+   "prepared": 19,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "16": {
+   "cantrips": 5,
+   "prepared": 21,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "17": {
+   "cantrips": 5,
+   "prepared": 22,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "18": {
+   "cantrips": 5,
+   "prepared": 23,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "19": {
+   "cantrips": 5,
+   "prepared": 24,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "20": {
+   "cantrips": 5,
+   "prepared": 25,
+   "slots": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    1
+   ]
+  }
+ }
+}

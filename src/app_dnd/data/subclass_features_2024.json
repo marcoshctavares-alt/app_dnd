@@ -1,0 +1,374 @@
+{
+ "Trilha do Berserker": [
+  {
+   "level": 3,
+   "name": "Frenesi",
+   "name_en": "Frenzy",
+   "text": "Ao usar Ataque Imprudente com a Fúria ativa, o primeiro alvo que você acertar no turno com um ataque baseado em Força sofre dano extra: role um número de d6 igual ao seu bônus de dano da Fúria. O tipo de dano é o da arma ou Ataque Desarmado."
+  },
+  {
+   "level": 6,
+   "name": "Fúria Irracional",
+   "name_en": "Mindless Rage",
+   "text": "Imunidade às condições Enfeitiçado e Amedrontado enquanto a Fúria estiver ativa. Se você estiver com uma delas ao entrar em Fúria, a condição termina."
+  },
+  {
+   "level": 10,
+   "name": "Retaliação",
+   "name_en": "Retaliation",
+   "text": "Ao sofrer dano de uma criatura a até 1,5 m, você pode usar sua Reação para fazer um ataque corpo a corpo contra ela, com arma ou Ataque Desarmado."
+  },
+  {
+   "level": 14,
+   "name": "Presença Intimidante",
+   "name_en": "Intimidating Presence",
+   "text": "Ação Bônus: criaturas à sua escolha numa Emanação de 9 m fazem salvaguarda de Sabedoria (CD 8 + mod. Força + Bônus de Proficiência) ou ficam Amedrontadas por 1 minuto, repetindo a salvaguarda ao fim de cada turno delas. Uma vez por Descanso Longo, ou gastando um uso de Fúria para recuperá-la."
+  }
+ ],
+ "Colégio do Conhecimento": [
+  {
+   "level": 3,
+   "name": "Proficiências Adicionais",
+   "name_en": "Bonus Proficiencies",
+   "text": "Proficiência em três perícias à sua escolha."
+  },
+  {
+   "level": 3,
+   "name": "Palavras Cortantes",
+   "name_en": "Cutting Words",
+   "text": "Quando uma criatura que você vê a até 18 m causa dano ou passa num teste de atributo ou ataque, use sua Reação e gaste um uso de Inspiração de Bardo: role o dado e subtraia o resultado da jogada dela."
+  },
+  {
+   "level": 6,
+   "name": "Descobertas Mágicas",
+   "name_en": "Magical Discoveries",
+   "text": "Você aprende duas magias das listas de Clérigo, Druida ou Mago (truque ou de um nível para o qual tenha espaços). Elas ficam sempre preparadas e podem ser trocadas ao subir de nível de Bardo."
+  },
+  {
+   "level": 14,
+   "name": "Perícia Inigualável",
+   "name_en": "Peerless Skill",
+   "text": "Ao falhar num teste de atributo ou ataque, gaste um uso de Inspiração de Bardo, role o dado e some ao d20. Se ainda assim falhar, a Inspiração não é gasta."
+  }
+ ],
+ "Domínio da Vida": [
+  {
+   "level": 3,
+   "name": "Discípulo da Vida",
+   "name_en": "Disciple of Life",
+   "text": "Quando uma magia com espaço de magia restaura Pontos de Vida, a criatura recupera 2 + nível do espaço a mais."
+  },
+  {
+   "level": 3,
+   "name": "Magias do Domínio da Vida",
+   "name_en": "Life Domain Spells",
+   "text": "Sempre preparadas: nível 3 — Aid, Bênção, Curar Ferimentos, Restauração Menor; 5 — Mass Healing Word, Revivificar; 7 — Aura of Life, Death Ward; 9 — Greater Restoration, Mass Cure Wounds."
+  },
+  {
+   "level": 3,
+   "name": "Preservar a Vida",
+   "name_en": "Preserve Life",
+   "text": "Ação de Magia + 1 uso de Canalizar Divindade: distribua PV iguais a 5 × seu nível de Clérigo entre criaturas Feridas a até 9 m (cada uma até metade do máximo de PV)."
+  },
+  {
+   "level": 6,
+   "name": "Curandeiro Abençoado",
+   "name_en": "Blessed Healer",
+   "text": "Ao lançar com espaço de magia uma cura em outra criatura, você recupera 2 + nível do espaço em PV."
+  },
+  {
+   "level": 17,
+   "name": "Cura Suprema",
+   "name_en": "Supreme Healing",
+   "text": "Ao restaurar PV com magia ou Canalizar Divindade, em vez de rolar os dados use o maior valor possível de cada dado."
+  }
+ ],
+ "Círculo da Terra": [
+  {
+   "level": 3,
+   "name": "Magias do Círculo da Terra",
+   "name_en": "Circle of the Land Spells",
+   "text": "Após cada Descanso Longo escolha um terreno (árido, polar, temperado ou tropical) e tenha preparadas as magias dele até seu nível: Árido — 3: Blur, Mãos Flamejantes, Raio de Fogo; 5: Bola de Fogo; 7: Blight; 9: Wall of Stone. Polar — 3: Fog Cloud, Imobilizar Pessoa, Ray of Frost; 5: Sleet Storm; 7: Ice Storm; 9: Cone de Frio. Temperado — 3: Passo Nebuloso, Shocking Grasp, Sono; 5: Lightning Bolt; 7: Freedom of Movement; 9: Tree Stride. Tropical — 3: Acid Splash, Ray of Sickness, Web; 5: Stinking Cloud; 7: Polimorfia; 9: Insect Plague."
+  },
+  {
+   "level": 3,
+   "name": "Auxílio da Terra",
+   "name_en": "Land’s Aid",
+   "text": "Ação de Magia + 1 uso de Forma Selvagem: esfera de 3 m de raio a até 18 m. Criaturas à sua escolha fazem salvaguarda de Constituição (CD de magia) ou sofrem 2d6 de dano Necrótico (metade se passar); uma criatura à sua escolha recupera 2d6 PV. Dano e cura sobem para 3d6 (nível 10) e 4d6 (nível 14)."
+  },
+  {
+   "level": 6,
+   "name": "Recuperação Natural",
+   "name_en": "Natural Recovery",
+   "text": "Uma vez por Descanso Longo, lance uma magia de nível 1+ preparada do Círculo sem gastar espaço. Após Descanso Curto, recupere espaços cuja soma de níveis seja até metade do seu nível de Druida (arredondado para cima, nenhum de nível 6+), uma vez por Descanso Longo."
+  },
+  {
+   "level": 10,
+   "name": "Proteção da Natureza",
+   "name_en": "Nature’s Ward",
+   "text": "Imunidade a Envenenado e Resistência ao dano do terreno escolhido: Árido — Fogo; Polar — Frio; Temperado — Elétrico; Tropical — Venenoso."
+  },
+  {
+   "level": 14,
+   "name": "Santuário da Natureza",
+   "name_en": "Nature’s Sanctuary",
+   "text": "Ação de Magia + 1 uso de Forma Selvagem: Cubo de 4,5 m a até 36 m com árvores e vinhas por 1 minuto. Você e aliados têm Meia Cobertura e aliados ganham a Resistência da Proteção da Natureza. Ação Bônus para mover o Cubo até 18 m."
+  }
+ ],
+ "Campeão": [
+  {
+   "level": 3,
+   "name": "Crítico Aprimorado",
+   "name_en": "Improved Critical",
+   "text": "Ataques com armas e Ataques Desarmados causam Acerto Crítico com 19 ou 20 no d20."
+  },
+  {
+   "level": 3,
+   "name": "Atleta Notável",
+   "name_en": "Remarkable Athlete",
+   "text": "Vantagem em Iniciativa e em testes de Força (Atletismo). Logo após um Acerto Crítico, mova-se até metade do seu Deslocamento sem provocar Ataques de Oportunidade."
+  },
+  {
+   "level": 7,
+   "name": "Estilo de Luta Adicional",
+   "name_en": "Additional Fighting Style",
+   "text": "Você ganha mais um talento de Estilo de Luta à sua escolha."
+  },
+  {
+   "level": 10,
+   "name": "Guerreiro Heroico",
+   "name_en": "Heroic Warrior",
+   "text": "Em combate, ao iniciar seu turno sem Inspiração Heroica, você pode se dar Inspiração Heroica."
+  },
+  {
+   "level": 15,
+   "name": "Crítico Superior",
+   "name_en": "Superior Critical",
+   "text": "Acerto Crítico com 18–20 no d20."
+  },
+  {
+   "level": 18,
+   "name": "Sobrevivente",
+   "name_en": "Survivor",
+   "text": "Defy Death: Vantagem em Salvaguardas Contra a Morte, e 18–20 conta como 20. Heroic Rally: no início do seu turno, se estiver Ferido com pelo menos 1 PV, recupera 5 + mod. Constituição em PV."
+  }
+ ],
+ "Guerreiro da Mão Aberta": [
+  {
+   "level": 3,
+   "name": "Técnica da Mão Aberta",
+   "name_en": "Open Hand Technique",
+   "text": "Ao acertar com um ataque da Rajada de Golpes, imponha um efeito: Addle — o alvo não faz Ataques de Oportunidade até o início do próximo turno dele; Push — salvaguarda de Força ou é empurrado até 4,5 m; Topple — salvaguarda de Destreza ou fica Caído."
+  },
+  {
+   "level": 6,
+   "name": "Integridade Corporal",
+   "name_en": "Wholeness of Body",
+   "text": "Ação Bônus: role seu dado de Artes Marciais e recupere esse valor + mod. Sabedoria em PV (mínimo 1). Usos iguais ao mod. Sabedoria (mínimo 1) por Descanso Longo."
+  },
+  {
+   "level": 11,
+   "name": "Passo Veloz",
+   "name_en": "Fleet Step",
+   "text": "Ao usar uma Ação Bônus diferente de Passo do Vento, você pode usar Passo do Vento logo em seguida."
+  },
+  {
+   "level": 17,
+   "name": "Palma Vibrante",
+   "name_en": "Quivering Palm",
+   "text": "Ao acertar um Ataque Desarmado, gaste 4 Pontos de Foco para iniciar vibrações que duram dias iguais ao seu nível de Monge. Você pode encerrá-las (no lugar de um ataque, no mesmo plano): o alvo faz salvaguarda de Constituição e sofre 10d12 de dano Energético (metade se passar). Só uma criatura por vez; pode encerrar sem efeito."
+  }
+ ],
+ "Juramento da Devoção": [
+  {
+   "level": 3,
+   "name": "Magias do Juramento da Devoção",
+   "name_en": "Oath of Devotion Spells",
+   "text": "Sempre preparadas: nível 3 — Protection from Evil and Good, Shield of Faith; 5 — Aid, Zone of Truth; 9 — Beacon of Hope, Dissipar Magia; 13 — Freedom of Movement, Guardian of Faith; 17 — Commune, Flame Strike."
+  },
+  {
+   "level": 3,
+   "name": "Arma Sagrada",
+   "name_en": "Sacred Weapon",
+   "text": "Ao usar Atacar, gaste 1 uso de Canalizar Divindade: por 10 minutos soma mod. Carisma (mín. +1) aos ataques com uma arma corpo a corpo, que pode causar dano Radiante e emite Luz Plena em 6 m (+6 m de Penumbra)."
+  },
+  {
+   "level": 7,
+   "name": "Aura de Devoção",
+   "name_en": "Aura of Devotion",
+   "text": "Você e aliados na sua Aura de Proteção têm Imunidade à condição Enfeitiçado."
+  },
+  {
+   "level": 15,
+   "name": "Golpe de Proteção",
+   "name_en": "Smite of Protection",
+   "text": "Ao lançar Golpe Divino, você e aliados na Aura de Proteção têm Meia Cobertura até o início do seu próximo turno."
+  },
+  {
+   "level": 20,
+   "name": "Nimbo Sagrado",
+   "name_en": "Holy Nimbus",
+   "text": "Ação Bônus: por 10 minutos a aura ganha poder sagrado — Vantagem em salvaguardas contra Ínferos e Mortos-Vivos; inimigos que iniciam o turno na aura sofrem dano Radiante igual ao mod. Carisma + Bônus de Proficiência; a aura emite luz do sol. Uma vez por Descanso Longo, ou gastando um espaço de nível 5."
+  }
+ ],
+ "Caçador": [
+  {
+   "level": 3,
+   "name": "Conhecimento do Caçador",
+   "name_en": "Hunter’s Lore",
+   "text": "Enquanto uma criatura estiver marcada por Marca do Caçador, você sabe suas Imunidades, Resistências e Vulnerabilidades."
+  },
+  {
+   "level": 3,
+   "name": "Presa do Caçador",
+   "name_en": "Hunter’s Prey",
+   "text": "Escolha uma opção (troque a cada Descanso Curto ou Longo): Colossus Slayer — +1d8 de dano uma vez por turno contra alvo que já perdeu PV; Horde Breaker — uma vez por turno, faça outro ataque com a mesma arma contra criatura diferente a até 1,5 m do alvo original."
+  },
+  {
+   "level": 7,
+   "name": "Táticas Defensivas",
+   "name_en": "Defensive Tactics",
+   "text": "Escolha uma opção (troque a cada Descanso Curto ou Longo): Escape the Horde — Ataques de Oportunidade contra você têm Desvantagem; Multiattack Defense — quem acerta você tem Desvantagem nos outros ataques contra você naquele turno."
+  },
+  {
+   "level": 11,
+   "name": "Presa Superior do Caçador",
+   "name_en": "Superior Hunter’s Prey",
+   "text": "Uma vez por turno, ao causar dano a criatura marcada por Marca do Caçador, cause o dano extra da magia também a outra criatura que você veja a até 9 m da primeira."
+  },
+  {
+   "level": 15,
+   "name": "Defesa Superior do Caçador",
+   "name_en": "Superior Hunter’s Defense",
+   "text": "Ao sofrer dano, use sua Reação para ter Resistência a esse dano e a outros do mesmo tipo até o fim do turno."
+  }
+ ],
+ "Ladrão": [
+  {
+   "level": 3,
+   "name": "Mãos Rápidas",
+   "name_en": "Fast Hands",
+   "text": "Ação Bônus: teste de Destreza (Prestidigitação) para abrir fechadura ou desarmar armadilha com Ferramentas de Ladrão ou para furtar; ou ação Utilizar; ou ação de Magia para usar um item mágico."
+  },
+  {
+   "level": 3,
+   "name": "Trabalho de Telhado",
+   "name_en": "Second-Story Work",
+   "text": "Deslocamento de Escalada igual ao Deslocamento, e a distância de salto usa Destreza em vez de Força."
+  },
+  {
+   "level": 9,
+   "name": "Furtividade Suprema",
+   "name_en": "Supreme Sneak",
+   "text": "Nova opção de Golpe Ardiloso — Stealth Attack (custo 1d6): se estiver Invisível pela ação Esconder, o ataque não encerra a condição se você terminar o turno atrás de Cobertura de Três Quartos ou Total."
+  },
+  {
+   "level": 13,
+   "name": "Usar Dispositivo Mágico",
+   "name_en": "Use Magic Device",
+   "text": "Sintonize até 4 itens mágicos; ao gastar cargas, role 1d6 e com 6 não gasta; pode usar qualquer Pergaminho de Magia com Inteligência (nível 1 ou truque com segurança; acima disso exige teste de Inteligência (Arcanismo) CD 10 + nível da magia, ou o pergaminho se desintegra)."
+  },
+  {
+   "level": 17,
+   "name": "Reflexos do Ladrão",
+   "name_en": "Thief’s Reflexes",
+   "text": "No primeiro round de qualquer combate você age duas vezes: na sua Iniciativa normal e na Iniciativa − 10."
+  }
+ ],
+ "Feitiçaria Dracônica": [
+  {
+   "level": 3,
+   "name": "Resiliência Dracônica",
+   "name_en": "Draconic Resilience",
+   "text": "PV máximos +3, e +1 a cada nível de Feiticeiro. Sem armadura, CA base = 10 + mod. Destreza + mod. Carisma."
+  },
+  {
+   "level": 3,
+   "name": "Magias Dracônicas",
+   "name_en": "Draconic Spells",
+   "text": "Sempre preparadas: nível 3 — Alter Self, Chromatic Orb, Command, Dragon’s Breath; 5 — Fear, Voo; 7 — Arcane Eye, Charm Monster; 9 — Legend Lore, Summon Dragon."
+  },
+  {
+   "level": 6,
+   "name": "Afinidade Elemental",
+   "name_en": "Elemental Affinity",
+   "text": "Escolha Ácido, Frio, Fogo, Elétrico ou Venenoso: Resistência a esse dano, e ao lançar magia desse tipo some o mod. Carisma a uma jogada de dano."
+  },
+  {
+   "level": 14,
+   "name": "Asas de Dragão",
+   "name_en": "Dragon Wings",
+   "text": "Ação Bônus: asas por 1 hora, com Deslocamento de Voo de 18 m. Uma vez por Descanso Longo, ou gastando 3 Pontos de Feitiçaria."
+  },
+  {
+   "level": 18,
+   "name": "Companheiro Dragão",
+   "name_en": "Dragon Companion",
+   "text": "Lance Summon Dragon sem componente material e uma vez por Descanso Longo sem espaço; pode lançá-la sem Concentração, com duração de 1 minuto."
+  }
+ ],
+ "Patrono Ínfero": [
+  {
+   "level": 3,
+   "name": "Bênção do Obscuro",
+   "name_en": "Dark One’s Blessing",
+   "text": "Ao reduzir um inimigo a 0 PV (ou se outro o fizer a até 3 m de você), ganha PV Temporários iguais ao mod. Carisma + nível de Bruxo (mínimo 1)."
+  },
+  {
+   "level": 3,
+   "name": "Magias do Ínfero",
+   "name_en": "Fiend Spells",
+   "text": "Sempre preparadas: nível 3 — Mãos Flamejantes, Command, Scorching Ray, Suggestion; 5 — Bola de Fogo, Stinking Cloud; 7 — Fire Shield, Wall of Fire; 9 — Geas, Insect Plague."
+  },
+  {
+   "level": 6,
+   "name": "Sorte do Obscuro",
+   "name_en": "Dark One’s Own Luck",
+   "text": "Ao fazer teste de atributo ou salvaguarda, some 1d10 após ver a jogada. Usos iguais ao mod. Carisma (mín. 1) por Descanso Longo; no máximo uma vez por jogada."
+  },
+  {
+   "level": 10,
+   "name": "Resiliência Ínfera",
+   "name_en": "Fiendish Resilience",
+   "text": "A cada Descanso Curto ou Longo escolha um tipo de dano (exceto Energético): você tem Resistência a ele."
+  },
+  {
+   "level": 14,
+   "name": "Arremessar pelo Inferno",
+   "name_en": "Hurl Through Hell",
+   "text": "Uma vez por turno, ao acertar um ataque, o alvo faz salvaguarda de Carisma (CD de magia) ou é lançado pelos Planos Inferiores: sofre 8d10 de dano Psíquico (se não for Ínfero) e fica Incapacitado até o fim do seu próximo turno. Uma vez por Descanso Longo, ou gastando um espaço de Magia de Pacto."
+  }
+ ],
+ "Evocador": [
+  {
+   "level": 3,
+   "name": "Sábio da Evocação",
+   "name_en": "Evocation Savant",
+   "text": "Adicione de graça ao grimório duas magias de Mago da escola Evocação de nível até 2, e mais uma magia de Evocação a cada novo nível de espaço de magia que você alcançar."
+  },
+  {
+   "level": 3,
+   "name": "Truque Potente",
+   "name_en": "Potent Cantrip",
+   "text": "Se você errar o ataque de um truque ou o alvo passar na salvaguarda, ele sofre metade do dano do truque, sem efeitos adicionais."
+  },
+  {
+   "level": 6,
+   "name": "Moldar Magias",
+   "name_en": "Sculpt Spells",
+   "text": "Ao lançar magia de Evocação, escolha 1 + nível da magia criaturas que você veja: elas passam automaticamente na salvaguarda e não sofrem dano se normalmente sofreriam metade."
+  },
+  {
+   "level": 10,
+   "name": "Evocação Potencializada",
+   "name_en": "Empowered Evocation",
+   "text": "Ao lançar magia de Mago da escola Evocação, some seu mod. Inteligência a uma jogada de dano."
+  },
+  {
+   "level": 14,
+   "name": "Sobrecanalizar",
+   "name_en": "Overchannel",
+   "text": "Ao lançar magia de Mago de nível 1–5 que cause dano, cause o dano máximo. A primeira vez não tem efeito adverso; usos seguintes antes do Descanso Longo causam 2d12 de dano Necrótico por nível do espaço (ignora Resistência e Imunidade), +1d12 por nível a cada novo uso."
+  }
+ ]
+}

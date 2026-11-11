@@ -1,0 +1,65 @@
+name: build-executaveis
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+jobs:
+  windows-onefile:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements-build.txt && pip install -e .
+      - name: Build
+        shell: bash
+        run: |
+          ADD=""
+          for f in src/app_dnd/data/*.json; do ADD="$ADD --add-data $f;app_dnd/data"; done
+          pyinstaller --onefile --windowed --noconfirm --clean --name FichasDnD --icon packaging/icon.ico --paths src --collect-all PySide6 $ADD packaging/launcher.py
+      - name: Autoteste
+        shell: bash
+        run: |
+          dist/FichasDnD.exe --selftest=selftest.txt || true
+          cat selftest.txt
+          grep -q "selftest ok" selftest.txt
+          ls -l dist/FichasDnD.exe
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FichasDnD-windows-onefile
+          path: dist/FichasDnD.exe
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {os: windows-latest, name: windows, exe: dist/APP_DND/APP_DND.exe}
+          - {os: macos-latest, name: macos, exe: dist/APP_DND.app/Contents/MacOS/APP_DND}
+          - {os: ubuntu-latest, name: linux, exe: dist/APP_DND/APP_DND}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -e ".[ui,pdf]" pyinstaller
+      - run: pyinstaller packaging/app_dnd.spec --noconfirm --clean
+      - name: Autoteste do executável
+        shell: bash
+        run: |
+          if [ "${{ matrix.name }}" = linux ]; then sudo apt-get update && sudo apt-get install -y libegl1 libxkbcommon0 libdbus-1-3 libfontconfig1; fi
+          "${{ matrix.exe }}" --selftest=selftest.txt || true
+          cat selftest.txt
+          grep -q "selftest ok" selftest.txt
+      - name: Compactar
+        shell: bash
+        run: |
+          cd dist
+          case "${{ matrix.name }}" in
+            windows) 7z a ../APP_DND-windows.zip APP_DND ;;
+            macos) ditto -c -k --keepParent APP_DND.app ../APP_DND-macos.zip ;;
+            *) zip -qr ../APP_DND-linux.zip APP_DND ;;
+          esac
+      - uses: actions/upload-artifact@v4
+        with:
+          name: APP_DND-${{ matrix.name }}
+          path: APP_DND-${{ matrix.name }}.zip

@@ -1,0 +1,19 @@
+{
+  "spells": [
+    {
+      "id": "minha-magia-exemplo",
+      "name": "Minha Magia de Exemplo",
+      "name_en": "My Example Spell",
+      "level": 1,
+      "school": "Evocação",
+      "classes": ["Mago", "Feiticeiro"],
+      "casting_time": "1 ação",
+      "range": "60 pés",
+      "components": "V, S",
+      "duration": "Instantânea",
+      "ritual": false,
+      "concentration": false,
+      "description": "Texto da magia (conteúdo seu ou licenciado, como o SRD em CC-BY-4.0)."
+    }
+  ]
+}
